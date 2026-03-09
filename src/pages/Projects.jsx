@@ -36,11 +36,46 @@ const web_mobile_apps = [
 
 const websites = [
   {
+    title: "Cloud Foods SG",
+    tags: ["Wordpress", "Elementor"],
+    desc: "A website for a restaurant dedicated to a group of chef-crafted dining concepts.",
+    image: "cloudfoods.png",
+    links: {live: "https://thewilsonteo.github.io/cloudfoods/"},
+  },
+  {
     title: "Nan Hua Chang Seafood",
     tags: ["Wordpress", "Elementor"],
-    desc: "A website project for a restaurant specialising traditional charcoal-grilled seafood.",
+    desc: "A website for a restaurant specialising traditional charcoal-grilled seafood.",
     image: "nan-hua-chang-seafood.png",
     links: {live: "https://nanhuachang.sg/"},
+  },
+  {
+    title: "Plum Village Restaurant",
+    tags: ["Wordpress", "Elementor"],
+    desc: "A bilingual website celebrating traditional Hakka cuisine, presented in both English and Chinese.",
+    image: "plum-village-restaurant.png",
+    links: {live: "https://thewilsonteo.github.io/plum-village-restaurant/"},
+  },
+  {
+    title: "QooMedia",
+    tags: ["Wordpress", "Elementor"],
+    desc: "A website for a business consultancy firm in website design and development, search engine optimisation (SEO), and online advertising.",
+    image: "qoomedia.png",
+    links: {live: "https://qoo.media/"},
+  },
+  {
+    title: "Alvion Trade",
+    tags: ["Wordpress", "Elementor", "PHP"],
+    desc: "A website for a company specialising airline supply industry website displaying products and solutions.",
+    image: "alvion-trade.png",
+    links: {live: "https://alviontrade.com/"},
+  },
+  {
+    title: "stats.sg",
+    tags: ["Wordpress", "Elementor", "PHP"],
+    desc: "A website dedicated to displaying information through visually appealing infographics.",
+    image: "stats-sg.png",
+    links: {live: "https://thewilsonteo.github.io/stats-sg/"},
   },
   {
     title: "The Teochew Kitchenette",
@@ -49,13 +84,6 @@ const websites = [
     image: "the-teochew-kitchenette.png",
     links: {live: "https://teochewkitchenette.com/"},
   },
-  // {
-  //   title: "stats.sg",
-  //   tags: ["Wordpress", "Elementor", "PHP"],
-  //   desc: "A website dedicated to displaying information visually through infographics.",
-  //   image: "",
-  //   links: {live: "https://stats.sg/"},
-  // },
   {
     title: "SG Drinking",
     tags: ["Wordpress", "Elementor", "PHP"],
@@ -64,18 +92,11 @@ const websites = [
     links: {live: "https://sgdrinking.com/"},
   },
   {
-    title: "Alvion Trade",
-    tags: ["Wordpress", "Elementor", "PHP"],
-    desc: "A company specialising airline supply industry website displaying products and solutions.",
-    image: "alvion-trade.png",
-    links: {live: "https://alviontrade.com/"},
-  },
-  {
-    title: "QooMedia",
+    title: "Kampong Kia",
     tags: ["Wordpress", "Elementor"],
-    desc: "A website for a business consultancy firm in website design and development, search engine optimisation (SEO), and online advertising.",
-    image: "qoomedia.png",
-    links: {live: "https://qoo.media/"},
+    desc: "A website for authentic Kampong style dishes influenced by Peranakan and Teochew culture.",
+    image: "kampong-kia.png",
+    links: {live: "https://thewilsonteo.github.io/kampong-kia/"},
   },
 ]
 
