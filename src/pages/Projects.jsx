@@ -92,6 +92,13 @@ const websites = [
     links: {live: "https://sgdrinking.com/"},
   },
   {
+    title: "Shrimp Prawn Seafood",
+    tags: ["Wordpress", "Elementor"],
+    desc: "A website for a Thai culinary concept and bar specialising in seafood vermicelli.",
+    image: "shrimp-prawn-seafood.png",
+    links: {live: "https://thewilsonteo.github.io/shrimp-prawn-seafood/"},
+  },
+  {
     title: "Kampong Kia",
     tags: ["Wordpress", "Elementor"],
     desc: "A website for authentic Kampong style dishes influenced by Peranakan and Teochew culture.",
