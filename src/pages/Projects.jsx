@@ -4,6 +4,19 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const web_mobile_apps = [
   { 
+    title: "Snake Game",
+    tags: ["React", "Vite", "Tailwind"],
+    image: "snake-game.png",
+    type: "Web", 
+    desc: {
+      intro: "A simplistic Snake game with keyboard controls."
+    },
+    links: {
+      github: "https://github.com/thewilsonteo/snake-game",
+      live: "https://thewilsonteo.github.io/snake-game/",
+    }
+  },
+  { 
     title: "KRTC",
     tags: ["Angular", "Node.js", "MySQL"],
     image: "krtc-mockup.png",
@@ -16,7 +29,9 @@ const web_mobile_apps = [
         "**Parent App**: Enables parents to view class schedules and attendance records of their children.",
       ],
     },
-    link: "https://play.google.com/store/apps/details?id=io.qzt.krtc&hl=en_SG",
+    links: {
+      live: "https://play.google.com/store/apps/details?id=io.qzt.krtc&hl=en_SG"
+    },
   },
   {   
     title: "CPA Services",
@@ -128,6 +143,20 @@ export default function Projects() {
                 <p className="text-gray-600 text-justify">
                   <TextFormatter content={proj.desc} />
                 </p>
+                {/* Action Links */}
+                {proj.links && 
+                <div className="flex gap-6 pt-6 pb-4">
+                  {proj.links.github && (
+                  <a href={proj.links.github} className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-medium">
+                    <Github size={20} /> Code
+                  </a> )}
+                  {proj.links.live && (
+                    <a href={proj.links.live} className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-medium">
+                      <ExternalLink size={20} /> Live Demo
+                    </a>
+                  )}
+                </div>
+                }
                 {/* Tech Badges Section */}
                 <div className="flex flex-wrap gap-2 mt-5 mb-4">
                   {proj.tags?.map((badge) => (

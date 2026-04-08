@@ -1,9 +1,9 @@
 // Contact.jsx
 
 const contacts = [
-  {
-    "email": "thewilsonteo@gmail.com"
-  },
+  // {
+  //   "email": "thewilsonteo@gmail.com"
+  // },
   {
     "github": "thewilsonteo"
   },
@@ -34,17 +34,10 @@ export default function Contact() {
 
               {/* Direct Contact Info */}
               <div className="space-y-6">
-                <div className="flex items-center gap-4 text-slate-300">
-                  <div className="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center">
+                <div className="flex gap-4  border-slate-700">
+                  <a href="mailto:thewilsonteo@gmail.com" className="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center hover:bg-blue-600 transition-colors">
                     <Mail size={20} />
-                  </div>
-                  <span>
-                    <a href="mailto:thewilsonteo@gmail.com">thewilsonteo@gmail.com
-                      </a>
-                    </span>
-                </div>
-                
-                <div className="flex gap-4 pt-4 border-slate-700">
+                    </a>
                   <a href="https://github.com/thewilsonteo" className="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center hover:bg-blue-600 transition-colors">
                     <Github size={24} />
                   </a>
