@@ -4,6 +4,19 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const web_mobile_apps = [
   { 
+    title: "Note Taking Website",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    image: "mern-notes.png",
+    type: "Web", 
+    desc: {
+      intro: "A note taking website using the MERN stack."
+    },
+    links: {
+      github: "https://github.com/thewilsonteo/mern-notes",
+      live: "https://mern-notes-luqd.onrender.com",
+    }
+  },
+  { 
     title: "Snake Game",
     tags: ["React", "Vite", "Tailwind"],
     image: "snake-game.png",
