@@ -4,6 +4,19 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const web_mobile_apps = [
   { 
+    title: "Chat App",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    image: "mern-chat.png",
+    type: "Web", 
+    desc: {
+      intro: "A realtime chat app using the MERN stack."
+    },
+    links: {
+      github: "https://github.com/thewilsonteo/mern-chat/",
+      live: "https://mern-chat-2xg6.onrender.com/",
+    }
+  },
+  { 
     title: "Note Taking Website",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     image: "mern-notes.png",
@@ -12,7 +25,7 @@ const web_mobile_apps = [
       intro: "A note taking website using the MERN stack."
     },
     links: {
-      github: "https://github.com/thewilsonteo/mern-notes",
+      github: "https://github.com/thewilsonteo/mern-notes/",
       live: "https://mern-notes-luqd.onrender.com",
     }
   },
@@ -25,8 +38,21 @@ const web_mobile_apps = [
       intro: "A simplistic Snake game with keyboard controls."
     },
     links: {
-      github: "https://github.com/thewilsonteo/snake-game",
+      github: "https://github.com/thewilsonteo/snake-game/",
       live: "https://thewilsonteo.github.io/snake-game/",
+    }
+  },
+  { 
+    title: "Portfolio",
+    tags: ["React", "Vite", "Tailwind"],
+    image: "portfolio.png",
+    type: "Web", 
+    desc: {
+      intro: "A website to showcase my projects and websites to clients."
+    },
+    links: {
+      github: "https://github.com/thewilsonteo/portfolio/",
+      live: "https://thewilsonteo.github.io/portfolio/",
     }
   },
   { 
