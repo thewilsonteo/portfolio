@@ -49,7 +49,7 @@ export default function Contact() {
             </div>
             <div className="pt-8">
               <a 
-                href="./Resume_Wilson_Teo_Wee_Sheng_2026-02-02.pdf" 
+                href="./Resume_Wilson_Teo_Wee_Sheng_2026-6.pdf" 
                 download 
                 className="flex items-center justify-center group bg-white text-slate-900 px-6 py-4 rounded-xl font-bold transition-all hover:bg-blue-50"
               >

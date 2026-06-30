@@ -4,12 +4,25 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const web_mobile_apps = [
   { 
+    title: "E-commerce App",
+    tags: ["MongoDB", "Express", "React", "Node.js", "Stripe"],
+    image: "mern-ecommerce.png",
+    type: "Web", 
+    desc: {
+      intro: "An e-commerce website using the MERN stack. Admins can create and manage products, whereas customers can buy them and check them out from their cart with Stripe payment integration."
+    },
+    links: {
+      github: "https://github.com/thewilsonteo/mern-ecommerce/",
+      live: "https://mern-ecommerce-atdb.onrender.com/",
+    }
+  },
+  { 
     title: "Chat App",
-    tags: ["MongoDB", "Express", "React", "Node.js"],
+    tags: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
     image: "mern-chat.png",
     type: "Web", 
     desc: {
-      intro: "A realtime chat app using the MERN stack."
+      intro: "A real-time chat app using the MERN stack. Users can chat with one another, upload images, and see who is online at any given time. It is also customisable, as they can also change their profile picture and website theme."
     },
     links: {
       github: "https://github.com/thewilsonteo/mern-chat/",
@@ -17,12 +30,12 @@ const web_mobile_apps = [
     }
   },
   { 
-    title: "Note Taking Website",
+    title: "Note Taking App",
     tags: ["MongoDB", "Express", "React", "Node.js"],
     image: "mern-notes.png",
     type: "Web", 
     desc: {
-      intro: "A note taking website using the MERN stack."
+      intro: "A note taking website using the MERN stack. It implements the CRUD functionality, allowing users to create, read, update and delete their own notes."
     },
     links: {
       github: "https://github.com/thewilsonteo/mern-notes/",
